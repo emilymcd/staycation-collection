@@ -15,8 +15,20 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "@fortawesome/free-brands-svg-icons": "^6.0.0",
+    "@fortawesome/free-solid-svg-icons": "^6.0.0",
+    "@fortawesome/react-fontawesome": "^0.1.17",
+    "autoprefixer": "^10.4.2",
     "gatsby": "^4.9.2",
+    "gatsby-plugin-fontawesome-css": "^1.2.0",
+    "gatsby-plugin-image": "^2.9.1",
+    "gatsby-plugin-postcss": "^5.9.0",
+    "gatsby-plugin-sharp": "^4.9.1",
+    "gatsby-source-filesystem": "^4.9.1",
+    "gatsby-transformer-sharp": "^4.9.0",
+    "postcss": "^8.4.8",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-dom": "^17.0.1",
+    "tailwindcss": "^3.0.23"
   }
 }

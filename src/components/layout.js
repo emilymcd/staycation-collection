@@ -7,7 +7,7 @@ const Layout = () => {
   return (
     <main className="px-10">
       <nav className="flex justify-between items-center m-5 gap-10">
-        <StaticImage src="../images/logo.png" width={200} alt="Staycation Collection Logo" />
+        <StaticImage src="../images/logo.png" width={250} alt="Staycation Collection Logo" />
         {/* Primary Nav */}
         <div className="hidden lg:flex justify-between items-center gap-10">
             <ul className="flex justify-center gap-10">

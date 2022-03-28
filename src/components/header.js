@@ -5,7 +5,7 @@ import { faBars } from '@fortawesome/free-solid-svg-icons'
 import { Link } from 'gatsby';
 import { useState } from 'react';
 
-const Layout = () => {
+const Header = () => {
 
   const [mobileNav, setMobileNav] = useState(false);
 
@@ -14,7 +14,7 @@ const Layout = () => {
   }
 
   return (
-    <main className="px-10 min-h-screen">
+    <main className="relative px-10">
       <nav className="sticky">
         <div className="flex justify-between items-center m-5 gap-10">
           <StaticImage src="../images/logo.png" width={250} alt="Staycation Collection Logo" />
@@ -51,4 +51,4 @@ const Layout = () => {
   )
 }
 
-export default Layout
+export default Header
